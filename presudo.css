@@ -1,0 +1,79 @@
+h1{
+background-color:red
+}
+
+h1:hover{
+background-color: blue;
+color: white;
+height: 100px
+}
+
+.logobox{
+font-size:40px;
+font-family: jokerman;
+margin-right:50px;
+
+}
+
+header{
+height:70px;
+background-color:lightblue;
+
+
+}
+
+.navigation:hover{
+color:red
+}
+
+.navigation{
+margin-right:20px
+}
+
+.mybutton:hover{
+background-color: blue;
+color:white
+
+}
+
+
+.mybutton{
+margin-left: 50px
+}
+
+
+
+input:focus{
+outline:3px solid orange
+}
+
+
+
+h2{
+color:green
+}
+
+
+
+h3{
+color:green
+}
+
+
+h2::before{
+content:"mr"
+}
+
+h2::before{
+content:"welcome";
+color: yellow
+}
+
+
+h3::after{
+content:"goodbye";
+color: red
+}
+
+
+
